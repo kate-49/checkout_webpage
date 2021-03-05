@@ -1,0 +1,24 @@
+{
+  "name": "checkout_webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "checkout.test.js",
+  "scripts": {
+    "test": "jest --forceExit --coverage --no-cache",
+    "lint-src": "yarn run eslint src/**/*.js",
+    "lint-tests": "yarn run eslint spec/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-49/checkout_webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate-49/checkout_webpage/issues"
+  },
+  "homepage": "https://github.com/kate-49/checkout_webpage#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

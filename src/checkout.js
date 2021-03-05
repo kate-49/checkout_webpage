@@ -8,7 +8,7 @@ class Checkout {
 
   getPrice(item) {
     var price = this.priceList[item];
-    this.totalprice.push(price)
+    this.totalprice += price
   }
 
   addToCart(item) {
@@ -19,11 +19,16 @@ class Checkout {
     return this.order
   }
 
-  finalPrice() {
-    var sum = this.totalprice.reduce(function(a, b){
-        return a + b;
-    }, 0);
-    return sum;
+  checkForOffers() {
+    var totalSR1 = this.order.count('SR1')
+    if (totalSR1 >= 3) {
+      this.totalPrice -= (totalSR1 * 0.5)
+    }
   }
 
+  finalPrice() {
+    this.checkForOffers()
+    return this.totalPrice;
+  }
 }
+module.exports = Checkout;
