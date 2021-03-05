@@ -11,7 +11,7 @@ class Checkout {
     this.totalprice.push(price)
   }
 
-  addToCheckout(item) {
+  addToCart(item) {
     this.order.push(item);
   }
 

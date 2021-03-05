@@ -5,21 +5,21 @@ $(document).ready(function() {
   reloadAllOrders();
 
   $('#add-coffee').click(function() {
-    checkout.addOrder('CF1');
+    checkout.addToCart('CF1');
     checkout.getPrice('CF1');
     reloadAllOrders();
     reloadTotalPrice();
   })
 
   $('#add-strawberries').click(function() {
-    checkout.addOrder('SR1');
+    checkout.addToCart('SR1');
     checkout.getPrice('SR1');
     reloadAllOrders();
     reloadTotalPrice();
   })
 
   $('#add-tea').click(function() {
-    checkout.addOrder('FR1');
+    checkout.addToCart('FR1');
     checkout.getPrice('FR1');
     reloadAllOrders();
     reloadTotalPrice();
