@@ -1,0 +1,13 @@
+h1  {
+  color: navy;
+  font-size: 300%;
+  margin-bottom: .3em;
+  text-align: center;
+  text-decoration: underline;
+  font-family: verdana;
+}
+
+body {
+ background-color: lightblue;
+ font-family: verdana;
+}
