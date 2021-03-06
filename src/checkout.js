@@ -1,4 +1,4 @@
-const CodeCheckout = require('./codecheckout.js')
+const BackEndCheckout = require('./codecheckout.js')
 
 class Checkout {
 
