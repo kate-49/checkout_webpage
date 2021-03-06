@@ -16,7 +16,8 @@ class CheckoutInterface  {
   }
 
   finalPrice() {
-    return this.checkout.run(this.order);
+    var finalPrice = this.checkout.run(this.order);
+    return finalPrice
   }
 }
 module.exports = CheckoutInterface;
