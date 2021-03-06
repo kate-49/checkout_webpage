@@ -1,4 +1,4 @@
-const Checkout = require('./checkoutInterface.js');
+const Checkout = require('./checkout.js');
 
 class CheckoutInterface {
 

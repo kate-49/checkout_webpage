@@ -1,3 +1,4 @@
+const CheckoutInterface = require('./checkoutInterface.js');
 
 $(document).ready(function() {
   var checkoutInterface = new CheckoutInterface();
