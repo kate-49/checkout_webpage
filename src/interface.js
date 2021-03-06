@@ -1,6 +1,6 @@
-var checkoutInterface = new CheckoutInterface();
 
 $(document).ready(function() {
+  var checkoutInterface = new CheckoutInterface();
 
   reloadAllOrders();
 

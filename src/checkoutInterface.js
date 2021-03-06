@@ -1,6 +1,6 @@
 const Checkout = require('./checkoutInterface.js');
 
-class CheckoutInterface  {
+class CheckoutInterface {
 
   constructor(name) {
     this.order = []
