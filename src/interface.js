@@ -19,6 +19,11 @@ $(document).ready(function() {
     reloadAllOrders();
   })
 
+  $('#checkout').click(function() {
+    checkout.finalPrice();
+    reloadAllOrders();
+  })
+
   function reloadAllOrders() {
     $('#placefill').text(checkout.allOrders());
   }
