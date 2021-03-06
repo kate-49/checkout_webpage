@@ -1,34 +1,35 @@
-const CheckoutInterface = require('./checkoutInterface.js');
-
 $(document).ready(function() {
+
+  var checkout = new Checkout();
 
   reloadAllOrders();
 
   $('#add-coffee').click(function() {
-    CheckoutInterface.addToCart('CF1');
+    checkout.addToCart('CF1');
+    checkout.getPrice('CF1');
     reloadAllOrders();
+    reloadTotalPrice();
   })
 
   $('#add-strawberries').click(function() {
-    CheckoutInterface.addToCart('SR1');
+    checkout.addToCart('SR1');
+    checkout.getPrice('SR1');
     reloadAllOrders();
+    reloadTotalPrice();
   })
 
   $('#add-tea').click(function() {
-    CheckoutInterface.addToCart('FR1');
+    checkout.addToCart('FR1');
+    checkout.getPrice('FR1');
     reloadAllOrders();
-  })
-
-  $('#checkout').click(function() {
-    CheckoutInterface.finalPrice();
-    reloadAllOrders();
+    reloadTotalPrice();
   })
 
   function reloadAllOrders() {
-    $('#placefill').text(CheckoutInterface.allOrders());
+    $('#placefill').text(checkout.allOrders());
   }
 
-  function totalPrice() {
-    $('#placefill2').text("£" + CheckoutInterface.finalPrice());
+  function reloadTotalPrice() {
+    $('#placefill2').text("£" + checkout.finalPrice());
   }
 })
