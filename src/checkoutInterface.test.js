@@ -1,6 +1,6 @@
-const Checkout = require('./checkout.js');
+const CheckoutInterface = require('./checkoutInterface.js');
 
-describe('Checkout', function() {
+describe('CheckoutInterface', function() {
   var checkout 
 
   beforeEach(function() {
