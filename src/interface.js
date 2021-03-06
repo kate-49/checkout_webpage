@@ -1,34 +1,34 @@
-var checkout = new Checkout();
+var checkoutInterface = new CheckoutInterface();
 
 $(document).ready(function() {
 
   reloadAllOrders();
 
   $('#add-coffee').click(function() {
-    checkout.addToCart('CF1');
+    checkoutInterface.addToCart('CF1');
     reloadAllOrders();
   })
 
   $('#add-strawberries').click(function() {
-    checkout.addToCart('SR1');
+    checkoutInterface.addToCart('SR1');
     reloadAllOrders();
   })
 
   $('#add-tea').click(function() {
-    checkout.addToCart('FR1');
+    checkoutInterface.addToCart('FR1');
     reloadAllOrders();
   })
 
   $('#checkout').click(function() {
-    checkout.finalPrice();
+    checkoutInterface.finalPrice();
     reloadAllOrders();
   })
 
   function reloadAllOrders() {
-    $('#placefill').text(checkout.allOrders());
+    $('#placefill').text(checkoutInterface.allOrders());
   }
 
   function totalPrice() {
-    $('#placefill2').text("£" + checkout.finalPrice());
+    $('#placefill2').text("£" + checkoutInterface.finalPrice());
   }
 })
