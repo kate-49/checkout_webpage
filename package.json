@@ -2,7 +2,7 @@
   "name": "checkout_webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "checkout.test.js",
+  "main": "checkout.js",
   "scripts": {
     "test": "jest --forceExit --coverage --no-cache",
     "lint-src": "yarn run eslint src/**/*.js",
