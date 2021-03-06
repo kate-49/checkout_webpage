@@ -1,6 +1,6 @@
-$(document).ready(function() {
+var checkout = new Checkout();
 
-  var checkout = new Checkout();
+$(document).ready(function() {
 
   reloadAllOrders();
 
