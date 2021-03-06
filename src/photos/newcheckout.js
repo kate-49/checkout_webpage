@@ -18,4 +18,4 @@ class Checkout {
     return totalPrice
   }
 }
-module.exports = Checkout
+module.exports = NewCheckout
