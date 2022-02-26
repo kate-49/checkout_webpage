@@ -1,19 +1,20 @@
 {
-  "name": "danny_castilla_cv",
+  "name": "checkout_webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.pug",
+  "main": "checkout.js",
   "scripts": {
-    "lint-src": "yarn run eslint src/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kate-49/danny_castilla.git"
+    "url": "git+https://github.com/kate-49/checkout_webpage.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/kate-49/index.pug",
-  "dependencies": {
-    "pug": "^3.0.2"
+  "bugs": {
+    "url": "https://github.com/kate-49/checkout_webpage/issues"
+  },
+  "homepage": "https://github.com/kate-49/checkout_webpage#readme",
+  "devDependencies": {
   }
 }
