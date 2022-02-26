@@ -2,7 +2,7 @@
   "name": "danny_castilla_cv",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.pug",
   "scripts": {
     "lint-src": "yarn run eslint src/**/*.js"
   },
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/kate-49/danny_castilla_cv#readme",
-  "devDependencies": {
+  "dependencies": {
+    "pug": "^3.0.2"
   }
 }
