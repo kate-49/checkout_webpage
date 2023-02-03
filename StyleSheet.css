@@ -21,7 +21,7 @@ body {
     text-align: center;
 }
 .nav-tabs {
-  font-size: larger;
+  font-size: larger !important;
 }
 .main-page-content {
     display: inline-block;
