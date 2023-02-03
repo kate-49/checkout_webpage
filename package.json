@@ -2,7 +2,7 @@
   "name": "danny_castilla_website",
   "version": "1.0.0",
   "description": "",
-  "main": "/src/templates/index.html",
+  "main": "index.html",
   "scripts": {
   },
   "repository": {
