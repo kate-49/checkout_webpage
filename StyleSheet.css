@@ -2,8 +2,12 @@
 
 .nav-item {
   font-size: larger !important;
-  color: darkgreen;
 }
+
+.nav-link {
+ color: darkgreen;
+}
+
 .nav-item-footer {
   padding-left: 20px !important;
   margin-left: 20px !important;
