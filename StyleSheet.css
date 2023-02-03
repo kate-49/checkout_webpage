@@ -20,7 +20,7 @@ body {
     padding: 2rem 2rem;
     text-align: center;
 }
-.nav-tabs {
+.nav-item {
   font-size: larger !important;
 }
 .main-page-content {
@@ -28,4 +28,7 @@ body {
     border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
+}
+.ms-3 {
+  padding-left: 20px;
 }
