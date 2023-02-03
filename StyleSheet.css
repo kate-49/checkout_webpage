@@ -1,35 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-h1  {
-  color: navy;
-  font-size: 300%;
-  margin-bottom: .3em;
-  text-align: center;
-  text-decoration: underline;
-  font-family: verdana;
-}
-
-body {
- background-color: lightblue;
- font-family: verdana;
-}
-
-.parent {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-}
 .nav-item {
   font-size: larger !important;
 }
-.main-page-content {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-}
-.ms-3 {
+.nav-item-footer {
   padding-left: 20px !important;
   margin-left: 20px !important;
 }
